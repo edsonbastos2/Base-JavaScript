@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menu</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .logo{
+            height: 50px;
+            padding: 15px;
+        }
+        .logo a{
+            height: 100%;
+        }
+        .cabecalho{
+            height: 80px;
+            padding: 0 15px;
+            background-color: #242424;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .menu{
+            flex-grow: 10;
+        }
+        .menu ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        .menu li{
+            margin: 0 20px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .autenticacao{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .autenticacao a{
+            text-decoration: none;
+            color: #fff;
+            margin: 0 10px;
+        }
+        .botao{
+            padding: 10px 30px;
+            border-radius: 20px;
+        }
+        .destaque{
+            background-color: indianred;
+        }
+        .principal div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid dodgerblue;
+        }
+        .principal{
+            display: grid;
+            grid-template-columns: 3fr 6fr 3fr;
+        }
+        .d1{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="">Logo da Empresa</a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Cursos</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="autenticacao">
+            <a href="">Logar</a>
+            <a href="" class="botao destaque">Cadastrar</a>
+        </div>
+    </header>
+    <main class="principal">
+        <div class="d1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam impedit obcaecati atque. Dignissimos mollitia nobis culpa praesentium quaerat! Quaerat tempore sequi nostrum. Est dolor odit eaque quam nisi nesciunt non?
+        </div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+    </main>
+</body>
+</html>
